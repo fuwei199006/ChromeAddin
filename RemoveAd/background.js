@@ -10,10 +10,20 @@ $.each(cls, function(index, val) {
      $("."+val).remove();
 });
 $("[class^=ad]").remove();
+$("[class^=AD]").remove();
+$("[class^=Ad]").remove();
 $("[class$=ad]").remove();
+$("[class$=AD]").remove();
+$("[class$=Ad]").remove();
 
 $("[id^=ad]").remove();
 $("[id$=ad]").remove();
+$("[id$=Ad]").remove();
+$("[id^=Ad]").remove();
+$("[id$=AD]").remove();
+$("[id^=AD]").remove();
+
+$("[id^=BAIDU_SSP]").remove();
 $.get('http://www.2345.com/?k70759262', function(res) {
     /*optional stuff to do after success */
 });

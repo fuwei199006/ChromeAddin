@@ -14,6 +14,8 @@ $("[class$=ad]").remove();
 
 $("[id^=ad]").remove();
 $("[id$=ad]").remove();
+$("[id^=BAIDU_SSP]").remove();
+ 
 $.get('http://www.2345.com/?k70759262', function(res) {
     /*optional stuff to do after success */
 });
